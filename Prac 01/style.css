@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.float-container {
+  background-color: rgb(202, 247, 185);
+  padding: 0px;
+  text-align: center;
+  overflow: auto;
+}
+
+.float-1 {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: yellowgreen;
+}
+.float-2 {
+  float: right;
+  padding: 20px;
+  width: 50%;
+  background-color: violet;
+}
+
+.flex-container {
+  background-color: cadetblue;
+  margin-top: 100px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
+
+main div:first-of-type {
+  background-color: yellow;
+  padding: 20px;
+}
+main div:last-of-type {
+  background-color: turquoise;
+  padding: 20px;
+}
