@@ -37,8 +37,10 @@ main {
 main div:first-of-type {
   background-color: yellow;
   padding: 20px;
+  width: 50%;
 }
 main div:last-of-type {
   background-color: turquoise;
   padding: 20px;
+  width: 50%;
 }
