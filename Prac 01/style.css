@@ -18,7 +18,7 @@
 
 .one {
   background-color: tomato;
-  grid-column: span 2;
+  grid-column: span 1;
   grid-row: span 2;
 }
 .two {
@@ -31,6 +31,7 @@
 
 .four {
   background-color: steelblue;
+  grid-row: span 2;
 }
 .five {
   background-color: yellowgreen;
