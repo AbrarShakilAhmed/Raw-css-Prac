@@ -35,4 +35,5 @@
 }
 .five {
   background-color: yellowgreen;
+  grid-column: span 2;
 }
